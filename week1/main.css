@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+	font-family: "Trirong", serif;
+	
+  }
+p{
+	 font-size: 18px;
+	 margin-top: 6px;
+}
+h2 {
+	margin-bottom: 6px;
+}
+.menu {
+	float: left;
+	width: 20%;
+	text-align: center;
+	height: 50%;
+  }
+  
+  .column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .main {
+	float: left;
+	width: 60%;
+	padding: 0 20px;
+	height: 100%;
+  }
+  
+  .right {
+	background-color: #aac5b1;
+	float: left;
+	width: 20%;
+	padding: 15px;
+	margin-top: 7px;
+	height: 619px;
+  }
+  .right h2{
+	  text-align: center;
+  }
+  
+  @media only screen and (max-width: 620px) {
+	/* For mobile phones: */
+	.menu, .main, .right {
+	  width: 100%;
+	}
+  }
+
+  .responsive {
+	width: 98%;
+	height: auto;
+	margin-top: 7px;
+	display: block;
+	
+  }	
+
+
+li{
+	font-size: 17px;
+}
